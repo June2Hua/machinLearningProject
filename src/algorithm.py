@@ -11,18 +11,21 @@ def error_function(Theta, X, Y):
 
 # 计算梯度
 def gradient_function(Theta, X, Y):
-    diff = X * Theta - Y
-    result = (1 / Theta.size) * np.dot(np.transpose(X), diff)
+    diff = np.dot(X, Theta) - Y
+    result = (1 / np.size(X, 0)) * np.dot(np.transpose(X), diff)
     return result
 
 
 def gradient_descent(X, Y, a):
     # 初始化θ的值为0的列向量
-    Theta = np.array([0, 0, 0, 0, 0]).reshape(5, 1)
+    Theta = np.array([0, 0, 0, 0, 0]).reshape(np.size(X, 1), 1)
+    print(Theta)
     # 计算梯度
     gradient = gradient_function(Theta, X, Y)
     # 寻找200次
     for i in range(1, 200):
+        print(Theta)
+        print(gradient)
         Theta = Theta - a * gradient
         gradient = gradient_function(Theta, X, Y)
     return Theta

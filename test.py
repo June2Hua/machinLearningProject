@@ -1,21 +1,10 @@
 import numpy as np
 import xlrd
-
-FILENAME = "data.xlsx" #文件的名字
-file = xlrd.open_workbook(FILENAME)
-
-table = file.sheets()[0]
-
-print(table.nrows)
-
-print(file.ncols)
-
-print(file.row_values(0))
-
-print(file.col_values(0))
-
-print(file.cell(0,0).value)
-
-print(np.ones([10,1]))
-
-
+from matplotlib import pyplot as plt
+x=np.arange(1,6)
+print(x)
+y=np.array([2,5,6,10,22])
+z=np.array(range(10))
+print(y)
+plt.plot(x,y)
+print(z)
