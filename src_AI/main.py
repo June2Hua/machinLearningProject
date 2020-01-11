@@ -1,6 +1,6 @@
 import numpy as np
 import pandas as pd
-from src.algorithm import *
+from src_AI.algorithm import *
 from matplotlib import pyplot as plt
 
 # 文件的名字
