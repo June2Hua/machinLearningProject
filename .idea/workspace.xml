@@ -22,7 +22,7 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Python" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -42,8 +42,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.simulationServiceAndClient">
-    <configuration name="simulationBankQueue" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.nonVIP (1)">
+    <configuration name="VIP (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="machineLearningProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -51,11 +51,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SimulationDemo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/17ProblemD/c" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SimulationDemo/simulationBankQueue.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/17ProblemD/c/VIP.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -64,7 +64,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="simulationChargeCar (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="VIP" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="machineLearningProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -72,11 +72,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SimulationDemo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/17ProblemD/b" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SimulationDemo/simulationChargeCar.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/17ProblemD/b/VIP.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -85,7 +85,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="simulationChargeCar" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="VIP2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="machineLearningProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -93,11 +93,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Simulation" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/17ProblemD/b" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Simulation/simulationChargeCar.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/17ProblemD/b/VIP2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -106,7 +106,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="simulationDriveCar" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="nonVIP (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="machineLearningProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -114,11 +114,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Simulation" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/17ProblemD/c" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Simulation/simulationDriveCar.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/17ProblemD/c/nonVIP.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -127,7 +127,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="simulationServiceAndClient" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="nonVIP" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="machineLearningProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -135,11 +135,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SimulationDemo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/17ProblemD/b" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SimulationDemo/simulationServiceAndClient.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/17ProblemD/b/nonVIP.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -150,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.simulationServiceAndClient" />
-        <item itemvalue="Python.simulationBankQueue" />
-        <item itemvalue="Python.simulationChargeCar (1)" />
-        <item itemvalue="Python.simulationChargeCar" />
-        <item itemvalue="Python.simulationDriveCar" />
+        <item itemvalue="Python.nonVIP (1)" />
+        <item itemvalue="Python.VIP (1)" />
+        <item itemvalue="Python.nonVIP" />
+        <item itemvalue="Python.VIP2" />
+        <item itemvalue="Python.VIP" />
       </list>
     </recent_temporary>
   </component>
