@@ -5,6 +5,7 @@ print("lambda_A_VIP", lambda_A_VIP)
 lambda_B = 1.0 / 63.99 * 5 /3
 print("lambda_B", lambda_B)
 lambda_B_VIP = 1.0 / 17.9 * 2
+
 print("lambda_B_VIP", lambda_B_VIP)
 
 # print("lambda_A", lambda_A)
