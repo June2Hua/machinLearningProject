@@ -53,8 +53,7 @@ drone_dim = np.array([[45, 45, 25],
                      [25, 20, 25],
                      [25, 20, 27],
                      [40, 40, 25],
-                     [32, 32, 17],
-                     [65, 75, 41]])
+                     [32, 32, 17]])
 
 #ISO容器尺寸，单位为英尺
 ISO_container_L = 19*12+3
@@ -81,7 +80,7 @@ drone_top_cargo1 = 8*10*14*1.0
 drone_top_cargo2 = 24*20*20*1.0
 
 #无人机的有效负载能力
-Payload_Capability = np.array([3.5, 8, 14, 11, 15, 22, 20, 0])
+Payload_Capability = np.array([3.5, 8, 14, 11, 15, 22, 20])
 
 #计算
 N_drone = np.floor((ISO_container/drone_dim))[:, 0] * np.floor((ISO_container/drone_dim))[:, 1] * np.floor((ISO_container/drone_dim))[:, 2]
@@ -93,12 +92,17 @@ D_max = drone_v * drone_time
 
 #计算体积
 volume = drone_dim[:, 0]*drone_dim[:, 1]*drone_dim[:, 2]
-type = np.array([1, 1, 2, 1, 2, 2, 2, 1])   #*******
-M = np.arange(8)
-for i in range(8):
+type = np.array([1, 1, 2, 1, 2, 2, 2])   #*******
+M = np.arange(7) * 1.0
+for i in range(7):
     if(type[i] == 1):
         M[i] = drone_top_cargo1 / volume[i]
     else:
         M[i] = drone_top_cargo2 / volume[i]
 
-print(M)
+#权重r1,r2,r3
+r1 = 0.2
+r2 = 0.5
+r3 = 0.3
+maxReturn = r1*W_max + r2*D_max + r3*M
+print(maxReturn)
